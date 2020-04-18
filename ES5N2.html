@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let courses=[{courseName:'网络制图',courseProperties:'专业课'},
+        {courseName:'PHP语言基础',courseProperties:'专业课'},
+        {courseName:'大学英语',courseProperties:'公共课'},
+        {courseName:'PhotoShop',courseProperties:'专业课'},
+        {courseName:'体育',courseProperties:'公共课'},
+        ];
+        let a=courses.find(function(item){
+            return item.courseName='大学英语';
+        })
+        console.log(a);
+    </script>
+</body>
+</html>

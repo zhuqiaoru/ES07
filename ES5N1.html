@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let provinces=['广东','湖南','广西','湖北'];
+        let capital=['广州','长沙','南宁','武汉'];
+        var arr=Array.from(provinces,function(v,i){
+            return{provinces:v,capital:capital[i]};
+        });
+        console.log(arr);
+    </script>
+</body>
+</html>
